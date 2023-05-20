@@ -1,0 +1,25 @@
+Configuración y clonación:
+
+git config --global user.name "Tu nombre": Configura el nombre de usuario global.
+git config --global user.email "tu@email.com": Configura el correo electrónico global.
+git clone <url>: Clona un repositorio remoto en tu computadora.
+Ramas (Branches):
+
+git branch: Muestra la lista de ramas en el repositorio local.
+git branch <nombre>: Crea una nueva rama con el nombre especificado.
+git checkout <nombre>: Cambia a la rama especificada.
+git merge <nombre>: Fusiona los cambios de la rama especificada en la rama actual.
+git branch -d <nombre>: Elimina la rama especificada.
+Commits:
+
+git status: Muestra el estado actual del repositorio.
+git add <archivo>: Agrega un archivo al área de preparación (staging).
+git commit -m "Mensaje del commit": Crea un nuevo commit con los archivos en el área de preparación y un mensaje descriptivo.
+git log: Muestra el historial de commits.
+git diff: Muestra las diferencias entre los cambios realizados y el último commit.
+Sincronización remota:
+
+git remote -v: Muestra los repositorios remotos configurados.
+git pull: Descarga los cambios del repositorio remoto y los fusiona con la rama actual.
+git push <nombre-remoto> <nombre-rama>: Envía los cambios locales al repositorio remoto y a la rama especificada.
+Estos son solo algunos de los comandos básicos de Git. Hay muchos más comandos y opciones disponibles. Puedes consultar la documentación oficial de Git o buscar más recursos para ampliar tus conocimientos sobre Git y aprovechar al máximo esta poderosa herramienta de control de versiones.
